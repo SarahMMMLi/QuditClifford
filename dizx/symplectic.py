@@ -133,3 +133,15 @@ def compare_matrices(m1: Matrix, m2: Matrix, modulus: int = 0):
         m1 = modulo_matrix(m1,modulus)
         m2 = modulo_matrix(m2,modulus)
     return m1 == m2
+
+def compare_matrices2(m1: Matrix, m2: Matrix, modulus: int = 0):
+    if modulus != 0:
+        a = symbols("a")
+        ainv = symbols("ainv")
+        b = symbols("b")
+        binv = symbols("binv")
+        m1_reduce = reduce_matrix(m1,[(a,ainv),(b,binv)])
+        m2_reduce = reduce_matrix(m1,[(a,ainv),(b,binv)])
+        m1_reduce = modulo_matrix(m1_reduce,modulus)
+        m2_reduce = modulo_matrix(m2_reduce,modulus)
+    return m1_reduce == m2_reduce
