@@ -15,7 +15,7 @@ s^-bminus1 q[0];
 h^-1 q[0];
 s^-bminus1inv q[0];
 h^-1 q[0];
-s^-bminus1*(d + 1) q[0];
+s^{-bminus1*(d + 1)} q[0];
 h q[0];
 swap q[0], q[1];
 cx q[1], q[0];
