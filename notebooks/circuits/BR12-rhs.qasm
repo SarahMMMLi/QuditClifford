@@ -18,7 +18,7 @@ swap q[0], q[1];
 cx q[1], q[0];
 s^binv - bminuscinv q[0];
 h q[1];
-s^-bminuscinv q[1];
+s^-bminusc q[1];
 h q[1];
 cz^binv - bminuscinv q[0], q[1];
 s^binv - bminuscinv q[1];

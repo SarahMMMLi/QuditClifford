@@ -284,7 +284,10 @@ class Gate(object):
             param = "({}*pi)".format(float(self.phase))  # type: ignore
         reps = ""
         if self.repetitions != 1:
-            reps = "^" + str(self.repetitions)
+            reps = str(self.repetitions).strip()
+            if reps.find(" ") != -1:
+                reps = "{" + reps + "}"
+            reps = "^" + reps
         return "{}{}{} {};".format(n, reps, param, ", ".join(args))
 
     def to_graph(

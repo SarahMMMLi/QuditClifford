@@ -21,5 +21,5 @@ s^-a*dminusainv**2 q[1];
 h q[1];
 s^dinv*dminusa q[1];
 h q[1];
-s^a*dminusainv q[1];
+s^d*dminusainv q[1];
 h q[1];
