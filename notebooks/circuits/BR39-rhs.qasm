@@ -7,7 +7,7 @@ s^-a q[1];
 h^-1 q[1];
 s^-ainv q[1];
 h^-1 q[1];
-s^-a*b q[1];
+s^{-a*(bminus1 + 1)} q[1];
 h q[1];
 swap q[0], q[1];
 cz^-1 q[0], q[1];
