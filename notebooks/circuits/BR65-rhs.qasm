@@ -12,7 +12,7 @@ h q[1];
 swap q[0], q[1];
 cz^-1 q[0], q[1];
 swap q[1], q[2];
-cz^{a - d} q[1], q[2];
+cz^-dminusa q[1], q[2];
 h^3 q[0];
 cz^a q[0], q[1];
 h q[0];

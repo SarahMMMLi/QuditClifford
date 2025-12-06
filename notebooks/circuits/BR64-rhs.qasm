@@ -3,7 +3,7 @@ include "qelib1.inc";
 quditdim 23
 qreg q[3];
 swap q[0], q[1];
-cz^{-b + c} q[0], q[1];
+cz^-bminusc q[0], q[1];
 h^-1 q[2];
 s^-c q[2];
 h^-1 q[2];
