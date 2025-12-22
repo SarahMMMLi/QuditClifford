@@ -1,12 +1,13 @@
 OPENQASM 2.0;
 include "qelib1.inc";
-quditdim 37
+quditdim 20
 qreg q[1];
 h q[0];
-h^-1 q[0];
 s^-a q[0];
-h^-1 q[0];
+h q[0];
 s^-ainv q[0];
-h^-1 q[0];
+h q[0];
 s^-a q[0];
+h^2 q[0];
+s^-ab q[0];
 h q[0];
