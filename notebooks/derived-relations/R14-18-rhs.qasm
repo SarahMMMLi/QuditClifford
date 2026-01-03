@@ -7,5 +7,6 @@ s^binv q[0];
 h^-1 q[0];
 s^b q[0];
 h q[0];
-cx^-binv*c q[0], q[1];
-cx q[1], q[0];
+s^b*t**2 q[1];
+cx^b*t q[1], q[0];
+cz^-t q[0], q[1];
