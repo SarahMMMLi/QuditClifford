@@ -1,6 +1,6 @@
 # A Complete and Natural Rule Set for Multi-Qudit Clifford Circuits in All Odd Prime Dimensions
 
-This repository accompanies the paper [*A Complete and Natural Rule Set for Multi-Qudit Clifford Circuits in All Odd Prime Dimensions*](https://arxiv.org/pdf/2609.40106) by Xiaoning Bian, Sarah Meng Li, Neil J. Ross, John van de Wetering, and Yuming Zhao. The paper proves that the 16 rewrite rules in Figure 1 are sound and complete for $n$-qudit Clifford circuits over $\{-\omega, H, S, \mathrm{CZ}\}$, for every odd prime $p$ (Theorem 4.10). Figure 2 defines some of the derived generators used in the rules. The Agda formalisation is in [onestruggler/acir](https://github.com/onestruggler/acir/releases/tag/v1.0-quantum-submission).
+This repository accompanies the paper [*A Complete and Natural Rule Set for Multi-Qudit Clifford Circuits in All Odd Prime Dimensions*](https://arxiv.org/pdf/2609.40106v2) by Xiaoning Bian, Sarah Meng Li, Neil J. Ross, John van de Wetering, and Yuming Zhao. The paper proves that the 16 rewrite rules in Figure 1 are sound and complete for $n$-qudit Clifford circuits over $\{-\omega, H, S, \mathrm{CZ}\}$, for every odd prime $p$ (Theorem 4.10). Figure 2 defines some of the derived generators used in the rules. The Agda formalisation is in [onestruggler/acir](https://github.com/onestruggler/acir/releases/tag/v1.0-quantum-submission).
 
 ![](https://github.com/SarahMMMLi/QuditClifford/blob/main/Figures/Figure1.png)
 
